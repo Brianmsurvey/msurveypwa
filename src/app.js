@@ -1,6 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'normalize.css/normalize.css';
-import './styles/styles.scss';
+import React from "react";
+import ReactDOM from "react-dom";
+import AppRouter from "./routes/AppRouter";
 
-ReactDOM.render(<p>This is my boilerplate</p>, document.getElementById('app'));
+import "./assets/css/animate.min.css";
+import "./assets/sass/light-bootstrap-dashboard.scss?v=1.2.0";
+import "./assets/css/demo.css";
+import "./assets/css/pe-icon-7-stroke.css";
+
+ReactDOM.render(<AppRouter />, document.getElementById("app"));
